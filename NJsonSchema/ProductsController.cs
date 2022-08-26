@@ -26,11 +26,11 @@ namespace NJsonSchema
         }
 
         [HttpPost(Name = "Products")]
-        public async Task<IActionResult> CreateProduct([FromBody] JObject jObect)
+        public async Task<IActionResult> CreateProduct([FromBody]Products jObect)
         {
-            var schema = JsonSchema.FromType<Products>();
+            var schema = JsonSchema.FromType<JObject>();
             var schemaData = schema.ToJson();
-            var errors = schema.Validate(jObect.ToString());
+            var errors = schema.Validate(JObject.FromObject(jObect).ToString());
 
             foreach (var error in errors)
                 Console.WriteLine(error.Path + ": " + error.Kind);
@@ -39,7 +39,7 @@ namespace NJsonSchema
                 return BadRequest(errors);
             }
             schema = await JsonSchema.FromJsonAsync(schemaData);
-            return Ok(schema);
+            return Ok(schema.ToJson());
         }
     }
 }
