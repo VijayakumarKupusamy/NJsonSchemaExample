@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yNDnODFQBjC3UYrcfbspI0khBGRNnAkCRUbWtcJt5bA=",
+  "Source": "NJsonSchema.Sample",
+  "BasePath": "_content/NJsonSchema.Sample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
