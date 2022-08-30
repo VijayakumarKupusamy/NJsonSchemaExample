@@ -28,3 +28,4 @@ D:\orgs\github\NJsonSchemaExample\NJsonSchema\obj\Debug\net6.0\refint\NJsonSchem
 D:\orgs\github\NJsonSchemaExample\NJsonSchema\obj\Debug\net6.0\NJsonSchema.Sample.pdb
 D:\orgs\github\NJsonSchemaExample\NJsonSchema\obj\Debug\net6.0\NJsonSchema.Sample.genruntimeconfig.cache
 D:\orgs\github\NJsonSchemaExample\NJsonSchema\obj\Debug\net6.0\ref\NJsonSchema.Sample.dll
+D:\orgs\github\NJsonSchemaExample\NJsonSchema\bin\Debug\net6.0\schema\product.json

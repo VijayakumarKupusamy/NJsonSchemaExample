@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Product",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [ "name", "description",  "maxRetailPrice", "unitPrice" ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "productCategoryId": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "categoryId": {
+      "type": "integer",
+      "format": "int32"
+    },
+    "maxRetailPrice": {
+      "type": "number",
+      "format": "double"
+    },
+    "unitPrice": {
+      "type": "number",
+      "format": "double"
+    }
+  }
+}

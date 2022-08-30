@@ -2,14 +2,16 @@
 
 namespace NJsonSchema
 {
-    public class Products
+    //
+    [Obsolete]
+    public class Product
     {
         [Required]
         public string Name { get; set; }
         [Required]
         public string Description { get; set; }
-        [Required]
-        public int ProductCategoryId { get; set; }
+
+        [Required] 
         public int CategoryId { get; set; }
         [Required]
         public double MaxRetailPrice { get;set; }

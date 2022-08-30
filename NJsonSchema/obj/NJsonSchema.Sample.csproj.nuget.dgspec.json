@@ -10,7 +10,7 @@
         "projectUniqueName": "D:\\orgs\\github\\NJsonSchemaExample\\NJsonSchema\\NJsonSchema.Sample.csproj",
         "projectName": "NJsonSchema.Sample",
         "projectPath": "D:\\orgs\\github\\NJsonSchemaExample\\NJsonSchema\\NJsonSchema.Sample.csproj",
-        "packagesPath": "C:\\Users\\TECHAdmin\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Vija505&D90\\.nuget\\packages\\",
         "outputPath": "D:\\orgs\\github\\NJsonSchemaExample\\NJsonSchema\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
@@ -19,7 +19,7 @@
         ],
         "configFilePaths": [
           "D:\\NuGet.Config",
-          "C:\\Users\\TECHAdmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vija505&D90\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
